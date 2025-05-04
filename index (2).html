@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="simongame.css">
+</head>
+
+<body>
+    <h1>Simon Says Game</h1>
+    <br>
+    <div class="startText">
+        <h2>" Repeat the sequence of colors shown by Simon, and you'll win; make mistake, and the game is over! "</h2>
+        <button class="startBtn">continue</button>
+    </div>
+    <button class="gameStart">start</button>
+    <p>Press any key to continue...</p>
+    <div class="btn-container">
+        <div class="line-one">
+            <div class="btn red" id="red" type="button"></div>
+            <div class="btn green" id="green" type="button"></div>
+        </div>
+        <div class="line-two">
+            <div class="btn yellow" id="yellow" type="button"></div>
+            <div class="btn blue" id="blue" type="button"></div>
+        </div>
+    </div>
+    <button class="restartBtn">restart!</button>
+    <script src="simongame.js"></script>
+</body>
+
+</html>

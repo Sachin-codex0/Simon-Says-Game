@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* background-color: rgb(127, 127, 248); */
+    background-image: url("bg-image15.jpg");
+    background-size: cover;
+    font-family: cursive;
+}
+nav {
+    width: 100%;
+    height: 9vh;
+    background-color: rgb(100, 130, 139);
+    display: flex;
+    align-items: center;
+}
+.nav p {
+    margin-left: 10%;
+    color: azure;
+    font-size: 2rem;
+}
+.navBtn {
+    margin: 7% 0 0 45vw;
+    position: absolute;
+    display: flex;
+}
+
+.change {
+    background-color: rgb(43, 226, 113);
+    padding: 0.6%;
+    margin-left: 2%;
+    cursor: pointer;
+    font-size: 1.07vw;
+    font-weight: 500;
+    transition: width 0s ease-in-out ;
+    transition: height 0s ease-in-out ;
+    transition: opacity 0s ease-in-out ;
+    /* box-shadow: 2px 0 4px green ; */
+}
+.playBtn1 {
+    height: 2vw;
+    width: 5vw;
+    border-radius: 15px;
+    border: none;
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+.reset {
+    height: 2.5vw;
+    width: 4.5vw;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(9, 248, 168);
+    font-size: 1.28vw;
+    font-weight: 500;
+}
+
+
+.container {
+    height: 0vw;
+    width: 0vw;
+    /* background-color: rgb(95, 95, 252); */
+    background-color: transparent;
+    border-radius: 10%;
+    border: 1px solid goldenrod;
+    box-shadow: 0 0 5px 5px wheat;
+    position: absolute;
+    margin: 4vw 0 0 39.5vw;
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    transition: width 1s ease-in-out ;
+    transition: height 1s ease-in-out ;
+    transition: opacity 1s ease-in-out ; 
+    opacity: 0;
+}
+.info {
+    margin: 4vw 0 0 70vw;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out ;
+}
+.info span {
+    color: rgb(82, 82, 201);
+    font-size: 2vw;
+}
+.container div {
+    height: 33.3%;
+    width: 33.32%;
+    border: 0.2vw solid royalblue;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: border 1s ease-in-out 2s;
+}
+.container>.bl {
+    border-left: 0;
+}
+.container>.bt {
+    border-top: 0;
+}
+.container>.br {
+    border-right: 0;
+}
+.container>.bb {
+    border-bottom: 0;
+}
+.btn p {
+    text-align: center;
+    margin-top: 0.75vw; 
+    font-size: 4vw;
+    color: lightseagreen;
+    opacity: 1;
+    transition: opacity 1s ease-in-out 1s;
+}
+
+.quit {
+    position: relative;
+    top: 17%;
+    left: 42%;
+    width: 5vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(82, 82, 219);
+    color: honeydew;
+}
+.winImg {
+    position: absolute;
+    opacity: 0;
+    top: 10%;
+    left: 0;
+}
+img {
+    height: 12vw;
+    border-radius: 15%;
+}
+
+
+.container>.line {
+    border: none;
+    position: absolute;
+    top: 52%;
+    left: 13%;
+    height: 0.5vw;
+    width: 0;
+    transition: width 1s ease-in-out;
+    background-color: purple;
+    border-radius: 15px;
+    /* transform: translate(100vw, 10px); */
+    transform: rotate(0deg);
+}
+
+
+
+/* @media only screen and (max-width: 768px) {
+    body {
+        transform: rotate(90deg);
+        width: 100vh;
+        height: 100vw;
+        background-image: url("bg-image15.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .container {
+        margin: auto;
+    }
+    nav {
+        margin: 12vh 0vw 0vh 0vh;
+        width: 157vw;
+    }
+    .nav {
+        margin-top: -2vh;
+    }
+} */

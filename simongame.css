@@ -1,0 +1,87 @@
+* {
+    text-align: center;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -30rem;
+}
+p {
+    font-size: 1.5rem;
+    font-weight: 550;
+    opacity: 0;
+}
+.btn {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #323232;
+    border-radius: 10%;
+    margin: 1.5rem;
+}
+.startText {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+}
+.startText h2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.startText .startBtn {
+    position: relative;
+    border-radius: 16px;
+    width: 6rem;
+    background-color: rgb(67, 129, 243);
+    color: wheat;
+    border: 2px solid rgb(67, 129, 243);
+    font-size: 1rem;
+    font-weight: 550;
+}
+.gameStart {
+    opacity: 0;
+    border-radius: 16px;
+    width: 4rem;
+    position: absolute;
+    left: 45vw;
+    background-color: rgb(61, 40, 197);
+    color: rgba(255, 255, 255, 0.904);
+    border: 2px solid rgb(61, 40, 197);
+    font-size: 1rem;
+    font-weight: 550;
+}
+.restartBtn {
+    opacity: 0;
+    border-radius: 16px;
+    width: 5rem;
+    background-color: rgb(47, 95, 185);
+    color: rgba(255, 255, 255, 0.842);
+    border: 2px solid rgb(47, 95, 185);
+    font-size: 1rem;
+    font-weight: 550;
+}
+.red {
+    background-color: red;
+   
+}
+.green {
+    background-color: lime;
+   
+}
+.yellow {
+    background-color: yellow;
+}
+.blue {
+    background-color: rgb(41, 41, 250);
+    
+}
+.flash {
+    background-color: white;
+}
+
+/* @media (max-width: 768px) {
+    .gameStart {
+        opacity: 1;
+    }
+} */

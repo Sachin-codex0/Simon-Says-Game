@@ -17,8 +17,8 @@ startBtn.addEventListener("click", function () {
         document.querySelector(".gameStart").style.opacity = "1";
         p.innerText = "";
     }
-    let headingColor = ["red","lime","blue","magenta","orange","purple"];
-    let randIdx = Math.floor(Math.random() * 6);
+    let headingColor = ["red","lime","blue","cornflowerblue","orange","purple","magenta","palegreen","powderblue","forestgreen","lavender","steelblue"];
+    let randIdx = Math.floor(Math.random() * 12);
     let Color = headingColor[randIdx];
     h1.style.color = `${Color}`;
 });
@@ -38,12 +38,12 @@ document.querySelector(".restartBtn").addEventListener("click", function () {
     document.querySelector(".restartBtn").style.opacity = "0";
 });
 
-// document.addEventListener("touchstart", function () {
-//     if (started) {
-//         started = false;
-//         levelUp();
-//     }
-// });
+document.addEventListener("touchstart", function () {    
+    if (started) {
+        started = false;       
+        levelUp();
+   }
+ });
 
 document.addEventListener("keypress", function () {
     if (started) {

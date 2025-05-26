@@ -38,12 +38,12 @@ document.querySelector(".restartBtn").addEventListener("click", function () {
     document.querySelector(".restartBtn").style.opacity = "0";
 });
 
-document.addEventListener("touchstart", function () {    
-    if (started) {
-        started = false;       
-        levelUp();
-   }
- });
+//document.addEventListener("touchstart", function () {    
+    //if (started) {
+       // started = false;       
+        //levelUp();
+  // }
+// });
 
 document.addEventListener("keypress", function () {
     if (started) {
